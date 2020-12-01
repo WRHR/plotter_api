@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "tsc -w",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "create:migration": "mikro-orm migration:create"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +18,8 @@
     "@mikro-orm/postgresql": "^4.3.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "type-graphql": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
